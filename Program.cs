@@ -6,13 +6,15 @@ using CircleRGB_v2;
 
 namespace CircleBP
 {
-    public Simpad sim = new Simpad();
+   
 
     internal class Program
     {
-        
+		private static StructuredOsuMemoryReader _sreader = StructuredOsuMemoryReader.Instance.GetInstanceForWindowTitleHint("");
 
-        public static async Task Main()
+		public Simpad sim = new Simpad();
+
+		public static async Task Main()
         {
             var colors = new Dictionary<int, string>(){
                 {0, "#0000ff"},
@@ -148,5 +150,4 @@ namespace CircleBP
             });
         }
     }
-}
 }

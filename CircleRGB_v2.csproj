@@ -22,7 +22,7 @@
     <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="6.0.0" />
     <PackageReference Include="OpenRGB.NET" Version="1.7.0" />
-    <PackageReference Include="OsuMemoryDataProvider" Version="0.8.9" />
+    <PackageReference Include="OsuMemoryDataProvider" Version="0.10.3" />
     <PackageReference Include="Usb.Net" Version="4.2.1" />
   </ItemGroup>
 

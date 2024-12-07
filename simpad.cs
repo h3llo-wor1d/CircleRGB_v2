@@ -51,7 +51,7 @@ namespace CircleRGB_v2
             await sendBuffer(buffer);
         }
 
-        public async void Init()
+        public async Task Init()
         {
 
             var loggerFactory = LoggerFactory.Create((builder) =>
